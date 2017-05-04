@@ -37,7 +37,7 @@ public class SearchResultsPage extends Base {
 		}
 		
 		String repoResultsFull=repositoryResults.getText();
-		repoResultsFull=repoResultsFull.replace("We have found ", "");
+		repoResultsFull=repoResultsFull.replace("We’ve found ", "");
 		repoResultsFull=repoResultsFull.replace(" repository results", "");
 		int repoResultsCount=Integer.valueOf(repoResultsFull);
 		System.out.println(repoResultsCount);
